@@ -12456,8 +12456,9 @@ nav ul .nav-item .dropdown-item {
   position: relative;
   border-radius: 8px;
   overflow: hidden;
+  cursor: pointer;
 }
-.services .services-row .service:hover .hidden-info p {
+.services .services-row .service:hover .hidden-info p, .services .services-row .service:hover .hidden-info a {
   display: block;
 }
 .services .services-row .service:hover .img-div img {
@@ -12477,7 +12478,7 @@ nav ul .nav-item .dropdown-item {
   color: #fcfef7;
   width: 100%;
 }
-.services .services-row .service .hidden-info h2, .services .services-row .service .hidden-info .h2 {
+.services .services-row .service .hidden-info h3, .services .services-row .service .hidden-info .h3 {
   text-align: center;
   white-space: nowrap;
   font-size: 30px;
@@ -12487,6 +12488,17 @@ nav ul .nav-item .dropdown-item {
   display: none;
   text-align: center;
   width: 95%;
+}
+.services .services-row .service .hidden-info a {
+  display: none;
+  text-align: center;
+  color: #fcfef7;
+  background-color: #f3660c;
+  padding: 8px 16px;
+  width: fit-content;
+  margin: 0 auto;
+  margin-top: 0.7rem;
+  border-radius: 8px;
 }
 .services .services-row .service .img-div {
   width: 100%;

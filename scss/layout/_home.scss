@@ -223,10 +223,11 @@
             position: relative;
             border-radius: 8px;
             overflow: hidden;
+            cursor: pointer;
 
             &:hover {
                 .hidden-info {
-                    p {
+                    p, a {
                         display: block;
                     }
                 }
@@ -252,7 +253,7 @@
                 color: $white;
                 width: 100%;
 
-                h2 {
+                h3 {
                     text-align: center;
                     white-space: nowrap;
                     font-size: 30px;
@@ -263,6 +264,18 @@
                     display: none;
                     text-align: center;
                     width: 95%;
+                }
+
+                a{
+                    display: none;
+                    text-align: center;
+                    color: $white;
+                    background-color: $secondary;
+                    padding: 8px 16px;
+                    width: fit-content;
+                    margin: 0 auto;
+                    margin-top: 0.7rem;
+                    border-radius: 8px;
                 }
             }
 
