@@ -12607,6 +12607,7 @@ nav ul .nav-item .dropdown-item {
   border-radius: 50%;
   display: inline-block;
   margin-top: -5rem;
+  background-color: #fcfef7;
 }
 .clients .client-slider__block p {
   color: #302c2c;
@@ -12617,7 +12618,7 @@ nav ul .nav-item .dropdown-item {
   font-size: 1.25rem;
   font-weight: 600;
   margin-top: 1.8125rem;
-  color: #212529;
+  color: #02071d;
 }
 
 .how-it-works .process {
