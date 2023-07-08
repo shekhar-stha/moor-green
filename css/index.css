@@ -12672,13 +12672,13 @@ nav ul .nav-item .dropdown-item {
   justify-content: center;
   align-items: center;
 }
-.how-it-works .process .process-info h1, .how-it-works .process .process-info .h1 {
+.how-it-works .process .process-info h2, .how-it-works .process .process-info .h2 {
   font-size: 35px;
   font-weight: 600;
   color: #30281b;
 }
 @media (max-width: 576px) {
-  .how-it-works .process .process-info h1, .how-it-works .process .process-info .h1 {
+  .how-it-works .process .process-info h2, .how-it-works .process .process-info .h2 {
     text-align: center;
   }
 }
@@ -12697,7 +12697,7 @@ nav ul .nav-item .dropdown-item {
   background-color: #02071d;
   position: relative;
 }
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   .cta::after {
     position: absolute;
     width: 100%;
@@ -12718,7 +12718,7 @@ nav ul .nav-item .dropdown-item {
   object-fit: cover;
   transform: scaleX(-1);
 }
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   .cta .img-div img {
     position: absolute;
     width: 100%;
@@ -12728,7 +12728,7 @@ nav ul .nav-item .dropdown-item {
     filter: brightness(30%);
   }
 }
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   .cta .img-div {
     width: inherit;
   }
@@ -12738,14 +12738,14 @@ nav ul .nav-item .dropdown-item {
   height: 100% !important;
   position: relative;
 }
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   .cta .info-side {
     width: 100%;
     text-align: center;
     padding: 2.5rem 0;
   }
 }
-.cta .info-side h1, .cta .info-side .h1 {
+.cta .info-side h2, .cta .info-side .h2 {
   font-size: 30px;
   margin-bottom: 2rem;
   color: #fff;
@@ -12785,6 +12785,30 @@ footer .footer-nav p {
     transform: translateY(-50%);
   }
 }
+.phone {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.phone a {
+  text-align: center;
+}
+.phone a i {
+  font-size: 60px;
+  color: #f3660c;
+  background-color: #edf5dc;
+  padding: 2rem;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+.phone a h6, .phone a .h6 {
+  font-size: 20px;
+}
+.phone a p {
+  font-size: 18px;
+}
+
 .lb-loader,
 .lightbox {
   text-align: center;
