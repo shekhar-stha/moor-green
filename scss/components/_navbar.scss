@@ -16,6 +16,11 @@
 
 nav {
     max-height: 12rem;
+
+    @media (max-width: 1200px) {
+        max-height: inherit !important;
+    }
+
     .navbar-brand {
         z-index: 2;
         img {
@@ -23,8 +28,10 @@ nav {
             border-bottom-left-radius: 20%;
             padding: 1rem;
             width: 19rem;
-            @media (max-width: 992px) {
+            @media (max-width: 1200px) {
                 width: 12rem;
+                margin-top: inherit !important;
+                border-bottom-left-radius: inherit !important;
             }
         }
     }
